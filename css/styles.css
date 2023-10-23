@@ -32,6 +32,7 @@ button {
 img {
     display: block;
     max-width: 100%;
+    height: auto;
 }
 
 input {
@@ -153,6 +154,7 @@ input {
 .header-menu-icon {
     fill: #2F2F37;
 }
+
 
 /* sect1 */
 .hero-container {
@@ -979,6 +981,9 @@ input {
     .hero-container {
         max-width: 768px;
         height: 436px;
+        background-image:
+                linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+                url(../images/hero-background-tabl.jpg);
     }
 
     .hero-header {
@@ -990,6 +995,18 @@ input {
         height: 120px;
         text-transform: none;
     }
+
+    /* section 2 */
+    .sect-advantages-item-header {
+        text-align: start;
+    }
+
+    .sect-advantages-item {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: calc((100% - 24px) / 2);
+    }
+
 }
     
 

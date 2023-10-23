@@ -122,6 +122,21 @@
     <main>
       <!-- section1 -->
       <section class="hero">
+        <picture class="picture">
+          <source
+            media="(min-width: 320px)"
+            srcset="./images/hero-background.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/hero-background-tabl.jpg"
+          />
+          <img
+            src="./images/hero-background.jpg"
+            srcset="./images/hero-background-2x.jpg"
+            alt=""
+          />
+        </picture>
         <div class="container hero-container">
           <h1 class="hero-header">Effective Solutions for Your Business</h1>
           <button class="hero-button" type="button">Order Service</button>
